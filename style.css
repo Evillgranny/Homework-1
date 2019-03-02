@@ -1,0 +1,44 @@
+* {
+    outline: none;
+}
+h1  {
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    background-image: url(http://brestnote.by/uploads/posts/2018-02/1519038531_32013.jpg);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 660px;
+    height: 330px;
+    text-align: center;
+}
+form input {
+    width: 100%;
+    opacity: 0.5;
+    margin-top: 150px;
+    height: 50px;
+    font-size: 30px;
+}
+form input:hover {
+    border-color: aqua;
+}
+form input:focus{
+    border-color: green;
+}
+button {
+    border: none;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Flag_of_Belarus.svg);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    color: #fff;
+}
+button:hover {
+    opacity: 0.5;
+}
